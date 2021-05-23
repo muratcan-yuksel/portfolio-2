@@ -7,6 +7,9 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Freelance from "./components/Freelance";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export class App extends Component {
   render() {
@@ -37,6 +40,9 @@ export class App extends Component {
         <Home />
         <About />
         <Portfolio />
+        <Freelance />
+        <Contact />
+        <Footer />
       </div>
     );
   }
