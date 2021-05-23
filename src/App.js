@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import About from "./components/About"
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
 
 export class App extends Component {
   render() {
@@ -35,6 +36,7 @@ export class App extends Component {
         <Header />
         <Home />
         <About />
+        <Portfolio />
       </div>
     );
   }
