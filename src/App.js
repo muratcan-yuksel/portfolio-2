@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import About from "./components/About"
 
 export class App extends Component {
   render() {
@@ -33,6 +34,7 @@ export class App extends Component {
         <Navbar />
         <Header />
         <Home />
+        <About />
       </div>
     );
   }

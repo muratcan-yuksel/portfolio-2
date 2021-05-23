@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section className="home" id="home">
       <div className="container-lg">
-        <div className="row min-vh-100 mt-5">
+        <div className="row min-vh-50 mt-5">
           {/* <div className="col-md-6 mt-5 mt-md-0">
             <div className="home-img text-center">
               <img
