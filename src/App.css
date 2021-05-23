@@ -11,6 +11,10 @@
 body {
   font-family: "Roboto Condensed" sans-serif;
 }
+/* navbar----------------- */
+nav {
+  z-index: 2;
+}
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -44,6 +48,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Roboto Condensed" sans-serif;
+  z-index: 1;
 }
 .main-info h1 {
   color: var(--primary-orange);
@@ -66,6 +71,12 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+}
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  transition: 0.2s ease-in-out;
+  color: var(--primary-white);
 }
 .main-info a {
   text-decoration: none;

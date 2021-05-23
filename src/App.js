@@ -19,6 +19,13 @@ export class App extends Component {
                   value_area: 900,
                 },
               },
+              shape: {
+                type: "circle",
+                stroke: {
+                  width: 6,
+                  color: "#f9ab00",
+                },
+              },
             },
           }}
         />
