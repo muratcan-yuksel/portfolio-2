@@ -4,6 +4,7 @@ import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Header from "./components/Header";
+import Home from "./components/Home";
 
 export class App extends Component {
   render() {
@@ -31,6 +32,7 @@ export class App extends Component {
         />
         <Navbar />
         <Header />
+        <Home />
       </div>
     );
   }

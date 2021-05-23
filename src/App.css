@@ -89,3 +89,11 @@ nav ul li {
   width: 100vw;
   z-index: 1;
 }
+/* .home-img {
+  background: url(./images/pp.jpeg) no-repeat;
+  position: relative;
+  background-size: contain;
+  background-position: center;
+  height: 20em;
+  border-radius: 50%;
+} */
