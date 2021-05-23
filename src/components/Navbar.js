@@ -2,12 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+      <div className="container">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -31,11 +28,31 @@ const Navbar = () => {
                   Link
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  About me
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Experience/timeline
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  My work
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
